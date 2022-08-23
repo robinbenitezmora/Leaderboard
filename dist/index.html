@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+  <title>Leaderboard</title>
+<script defer src="main.js"></script></head>
+<body>
+  <header>
+    <h1>Leaderboard</h1>
+  </header>
+  <main>
+    <section class="container">
+      <div class="show-scores">
+        <div class="show-scores__header">
+          <h2>Recent Scores</h2>
+          <button type="button" class="show-scores__button">Refresh</button>
+        </div>
+        <div class="show-scores__table">
+          <h4 class="show-scores__table-name">Name</h4>
+          <div class="show-scores__table-points">100</div>
+        </div>
+      </div>
+      <div class="add-score">
+        <h2>Add Score</h2>
+        <form action="index.html" method="post">
+          <input type="text" name="name" id="name" placeholder="Name">
+          <input type="number" name="score" id="score" placeholder="Score">
+          <button type="submit" class="add-score__button">Submit</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
