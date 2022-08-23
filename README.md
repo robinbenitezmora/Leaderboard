@@ -1,10 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# To Do List -Webpack
+# Lidearboard
 
 
 >
-This project is a basic website that will allow to the users to add, remove, get and save tasks from a group or list using JavaScript objects, modules, Webpack and ES6.
+Leaderboard project is built with HTML, CSS and JavaScript, however, this first part has only a brief styling and a basic structure.
 
 ## Built With
 
@@ -17,7 +17,7 @@ This project is a basic website that will allow to the users to add, remove, get
 - Webpack
 
 ## 💻 Live demo
-- [Live Demo Link](https://robinbenitezmora.github.io/ToDoList-Webpack/dist)
+- [Live Demo Link](https://github.com/robinbenitezmora/Leaderboard)
 
 ## Getting Started
 
@@ -44,11 +44,11 @@ If you want to clone this project:
 ### Install
 Clone this repository (you must have [Git Installed](https://github.com/git-guides/install-git))
 
-`git clone git@github.com:robinbenitezmora/ToDoList-Webpack.git`
+`git clone git@github.com:robinbenitezmora/Leaderboard.git`
 
-Then, move to the newly created folder `ToDoList-Webpack` using this command
+Then, move to the newly created folder `Leaderboard` using this command
 
-`cd ToDoList-Webpack`
+`cd Leaderboard`
 
 Then, install dependencies using this command
 
