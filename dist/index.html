@@ -12,23 +12,39 @@
     <h1>Leaderboard</h1>
   </header>
   <main>
-    <section class="container">
+    <section>
       <div class="show-scores">
         <div class="show-scores__header">
-          <h2>Recent Scores</h2>
+          <h3>Recent Scores</h3>
           <button type="button" class="show-scores__button">Refresh</button>
         </div>
         <div class="show-scores__table">
-          <h4 class="show-scores__table-name">Name</h4>
-          <div class="show-scores__table-points">100</div>
+          <div class="show-scores__table-row">
+            <h5 class="show-scores__table-name">Robin</h5>
+            <div class="show-scores__table-points">200</div>
+          </div>
+          <div class="show-scores__table-row">
+            <h5 class="show-scores__table-name">Diana</h5>
+            <div class="show-scores__table-points">180</div>
+          </div>
+          <div class="show-scores__table-row">
+            <h5 class="show-scores__table-name">Juana</h5>
+            <div class="show-scores__table-points">190</div>
+          </div>
         </div>
       </div>
       <div class="add-score">
-        <h2>Add Score</h2>
+        <h3>Add your Score</h3>
         <form action="index.html" method="post">
-          <input type="text" name="name" id="name" placeholder="Name">
-          <input type="number" name="score" id="score" placeholder="Score">
-          <button type="submit" class="add-score__button">Submit</button>
+          <label for="name">
+            <input type="text" name="name" id="name" placeholder="Your name"><br><br>
+          </label>
+          <label for="score">
+            <input type="number" name="score" id="score" placeholder="Your score"><br><br>
+          </label>
+          <div class="submit-btn">
+            <button type="submit">Submit</button>
+          </div>
         </form>
       </div>
     </section>
