@@ -74,7 +74,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
--I thank Microverse for its documentation, and my mentor, David Verde for his support and guidance.
+-I thank Microverse for its documentation, and my mentor, David Verde for his support, guidance and patient by sharing his large knowledge.
 
 ## 📝 License
 
