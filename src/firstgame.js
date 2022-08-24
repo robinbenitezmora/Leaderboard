@@ -10,7 +10,7 @@ const game = async () => {
     }),
   });
   const gameIdJson = await gameIdResult.json();
-  gameId = (gameIdJson.showscores).split(' ');
+  gameId = (gameIdJson.result).split(' ');
   return gameId;
 };
 
