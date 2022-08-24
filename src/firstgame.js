@@ -1,5 +1,5 @@
-const game = async () => {
-  let gameId = [];
+const firstGame = async () => {
+  let identityGame = [];
   const gameIdResult = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', {
     method: 'POST',
     headers: {
@@ -10,8 +10,8 @@ const game = async () => {
     }),
   });
   const gameIdJson = await gameIdResult.json();
-  gameId = (gameIdJson.result).split(' ');
-  return gameId;
+  identityGame = (gameIdJson.result).split(' ');
+  return identityGame;
 };
 
-module.exports = game;
+module.exports = firstGame;

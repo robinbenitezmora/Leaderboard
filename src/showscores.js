@@ -1,9 +1,9 @@
 class Showscores {
-  static showScores(player, scores) {
+  static showScores(user, score) {
     return `
-      <div class="show-scores__table-row" data-id=${player}>
-        <div class="show-scores__table-name" data-id=${player}>${player}</div>
-        <div class="show-scores__table-score" data-id=${player}>${scores}</div>
+      <div class="show-scores__table-row" data-id=${user}>
+        <div class="show-scores__table-name" data-id=${user}>${user}</div>
+        <div class="show-scores__table-name" data-id=${user}>${score}</div>
       </div>`;
   }
 }
