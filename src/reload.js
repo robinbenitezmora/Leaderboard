@@ -3,7 +3,7 @@ import Showscores from './showscores.js';
 const reload = () => async () => {
   const listScores = document.querySelector('.show-scores__table');
   listScores.innerHTML = '';
-  const scores = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/dV5ddO4HfUyAH1uOfTZ3/scores/');
+  const scores = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/');
   const scoresJson = await scores.json();
   const scoresArray = scoresJson.scores;
   scoresArray.forEach((item) => {

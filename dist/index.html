@@ -18,33 +18,18 @@
           <h3>Recent Scores</h3>
           <button type="button" class="show-scores__button">Refresh</button>
         </div>
-        <div class="show-scores__table">
-          <div class="show-scores__table-row">
-            <h5 class="show-scores__table-name">Robin</h5>
-            <div class="show-scores__table-points">200</div>
-          </div>
-          <div class="show-scores__table-row">
-            <h5 class="show-scores__table-name">Diana</h5>
-            <div class="show-scores__table-points">180</div>
-          </div>
-          <div class="show-scores__table-row">
-            <h5 class="show-scores__table-name">Juana</h5>
-            <div class="show-scores__table-points">190</div>
-          </div>
-        </div>
+        <div class="show-scores__table"></div>
       </div>
       <div class="add-score">
         <h3>Add your Score</h3>
         <form action="index.html" method="post">
           <label for="name">
-            <input type="text" name="name" id="name" placeholder="Your name"><br><br>
+            <input class="player" type="text" name="name" id="name" placeholder="Your name"><br><br>
           </label>
           <label for="score">
-            <input type="number" name="score" id="score" placeholder="Your score"><br><br>
+            <input class="score" type="number" name="score" id="score" placeholder="Your score"><br><br>
           </label>
-          <div class="submit-btn">
-            <button type="submit">Submit</button>
-          </div>
+          <button class="submit-btn" type="submit">Submit</button>
         </form>
       </div>
     </section>

@@ -2,7 +2,7 @@ const postScore = async (item) => {
   item.preventDefault();
   const player = document.getElementById('name').value;
   const score = document.getElementById('score').value;
-  const game = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/dV5ddO4HfUyAH1uOfTZ3/scores/';
+  const game = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
   const result = await fetch(`${game}`, {
     method: 'POST',
     headers: {
