@@ -4,7 +4,8 @@
 
 
 >
-Leaderboard project is built with HTML, CSS and JavaScript, however, this first part has only a brief styling and a basic structure.
+Leaderboard project is built with HTML, CSS and JavaScrip in order to apply the new knowledge about API'S.
+Finally, you can enjoy the complete project right now. 
 
 ## Built With
 
@@ -15,6 +16,7 @@ Leaderboard project is built with HTML, CSS and JavaScript, however, this first 
 - Git
 - GitHub
 - Webpack
+- API's
 
 ## 💻 Live demo
 - [Live Demo Link](https://github.com/robinbenitezmora/Leaderboard)
